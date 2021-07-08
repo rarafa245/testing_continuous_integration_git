@@ -11,7 +11,9 @@ class Advices:
             'Tamo junto',
             'Eu gosto de lhamas :3',
             'Eu gosto de the midnight',
-            'Mo frio man `-`'
+            'Mo frio man `-`',
+            'bugger king > mc donnalds',
+            'kkkkkkkk lol'
         ]
     
     def gimme_something(self):
