@@ -5,12 +5,9 @@ class Advices:
     def __init__(self) -> None:
         self.__speeches = [
             'Melhor um passaro na mao do que dois voando',
-            'Shrek e o melhor filme ja existente',
             'SE MELHORAR, VIRA FESTA!',
-            'Resiliencia',
             'Tamo junto',
             'Eu gosto de lhamas :3',
-            'Eu gosto de the midnight',
             'Mo frio man `-`'
         ]
     
