@@ -7,11 +7,13 @@ class Advices:
             'Melhor um passaro na mao do que dois voando',
             'Shrek e o melhor filme ja existente',
             'SE MELHORAR, VIRA FESTA!',
-            'Resiliencia'
+            'Resiliencia',
+            'Tamo junto',
+            'Eu gosto de lhamas :3'
         ]
     
     def gimme_something(self):
-        position = random.randint(0, 3)
+        position = random.randint(0, 5)
         print(self.__speeches[position])
 
 ball = Advices()
