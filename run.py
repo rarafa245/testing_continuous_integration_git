@@ -9,11 +9,13 @@ class Advices:
             'SE MELHORAR, VIRA FESTA!',
             'Resiliencia',
             'Tamo junto',
-            'Eu gosto de lhamas :3'
+            'Eu gosto de lhamas :3',
+            'Eu gosto de the midnight',
+            'Mo frio man `-`'
         ]
     
     def gimme_something(self):
-        position = random.randint(0, 5)
+        position = random.randint(0, 7)
         print(self.__speeches[position])
 
 ball = Advices()
