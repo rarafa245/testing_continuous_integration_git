@@ -21,3 +21,4 @@ while True:
     response = input('Do you wanna some advice? (y/n) ')
 
     if (response == 'Y' or response == 'y'): ball.gimme_something()
+    if (response == 'exit'): exit(0)
