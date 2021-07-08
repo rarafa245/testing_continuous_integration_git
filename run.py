@@ -17,5 +17,6 @@ class Advices:
 ball = Advices()
 
 while True:
-    input('Do you wanna some advice?')
-    ball.gimme_something()
+    response = input('Do you wanna some advice? (y/n) ')
+
+    if (response == 'Y' or response == 'y'): ball.gimme_something()
